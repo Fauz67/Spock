@@ -16,7 +16,7 @@ header{
   border-radius: 5em; 
   padding: 10px 10px 10px 10px; 
   border: 5px solid black;
-  margin: auto;
+  margin: 0px auto 20px auto;
   width: 40%;
 }
 
@@ -46,19 +46,40 @@ section {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 5px solid black;
+  background-color: brown;
 }
 
-.descripcion{
+.cuerpo{
+  text-align: justify;
+  padding: 10px 50px 20px 50px;
+  border: 5px solid black;
+}
+
+.footer{
   text-align: justify;
   padding: 10px 50px 10px 50px;
   border: 5px solid black;
 }
 
-.historia{
-  text-align: justify;
-  padding: 10px 50px 10px 50px;
-  border: 5px solid black;
+.cont{
+  display: flex;
+  margin-top: 20px;
 }
+
+.izq{
+  background-color: gray;
+  width: 30%;
+  height: 100px;
+  margin: 5px;
+}
+
+.der{
+  background-color: white;
+  width: 70%;
+  height: 100px;
+  margin: 5px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
