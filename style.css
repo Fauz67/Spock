@@ -1,0 +1,20 @@
+body {
+  background-color: rosybrown;
+  font-size: 15pt;
+}
+
+header{
+  background-color: white;
+}
+
+section {
+  background-color: whitesmoke;
+  
+}
+
+.sobremi{
+  font-weight: bold;
+  font-size: 34pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
