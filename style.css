@@ -1,10 +1,27 @@
 body {
-  background-color: rosybrown;
-  font-size: 15pt;
+  background-color: rgb(10, 66, 8);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
+  
+}
+
+.cabecera{
   background-color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5em; 
+  padding: 10px 10px 10px 10px; 
+  border: 5px solid black;
+  margin: auto;
+  width: 40%;
+}
+
+a{
+  text-decoration: none;
 }
 
 section {
@@ -12,9 +29,68 @@ section {
   
 }
 
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid black;
+}
+
 .sobremi{
   font-weight: bold;
   font-size: 34pt;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  padding: 10px 10px 10px 10px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid black;
+}
+
+.descripcion{
+  text-align: justify;
+  padding: 10px 50px 10px 50px;
+  border: 5px solid black;
+}
+
+.historia{
+  text-align: justify;
+  padding: 10px 50px 10px 50px;
+  border: 5px solid black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cabecera{
+    width: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .cabecera{
+    width: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .cabecera{
+    width: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cabecera{
+    width: 40%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .cabecera{
+    width: 40%;
+  }
 }
