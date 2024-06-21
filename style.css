@@ -1,6 +1,8 @@
 body {
-  background-color: rgb(10, 66, 8);
+  background: linear-gradient(rgb(28, 88, 28),30%,black); 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
 }
 
 header{

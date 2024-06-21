@@ -9,7 +9,7 @@ p{
 .skills{
     display: flex;
     margin: 10px;
-
+    justify-content: center;
 }
 
 .sk{
@@ -17,16 +17,19 @@ p{
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    text-align: justify;
 }
 
 .proyectos{
     display: flex;
     margin: 10px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .pts{
-    width: 200px;
-    height: 180px;
+    width: 160px;
+    height: 140px;
     margin: 15px;
     text-align: center;
 }
